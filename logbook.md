@@ -29,7 +29,9 @@
 ### Samarbete  och agilt arbete
 - Vi har satt upp en rutin för att sätta poäng på stories med online planning poker.
 - Vi har en fast tid varje dag för Daily Scrum. 
-- Vi bestämde oss för att planera mer, och vi kan lägga till fler uppgifter senare om vi hinner.  
+- Retrospektiv: 
+    + Vi bestämde oss för att planera mer, och vi kan lägga till fler uppgifter senare om vi hinner.
+    + Om någon har problem eller sitter fast med någonting, måste ta det upp på Daily Scrum.
 
 
 
@@ -50,6 +52,7 @@
 - Vad vi har uppnått:
 - Vi har förbättrat UX  med kundvagn, product search field, category filter, 
 - E-mail funkar lokalt och 404-template och an admin-sida.
+- Retrospektiv: Vi tyckte att vi hade gjort väldigt bra jobb.
 
 
 
@@ -58,11 +61,22 @@
 
 ## Sprint 4 - vecka 42
 ### Vad jag arbetade med 
-- `24. Uppdatera så att formuläret som skapar nya produkter inkluderar category och imageUrl`
-- 
+- Färdigt: `24. Uppdatera så att formuläret som skapar nya produkter inkluderar category och imageUrl`
+- Inte färdigt: Lägg till stock i ProductForm
 
 ### Eventuella problem och hur jag löste dem
 - Lite om ev problem och lösningar på dem
 
 ### Samarbete  och agilt arbete
-- Beskriv tex Sprint Planning, daily scrums, annat samarbete kortfattat
+- Mål: Vi ska göra klart resten av arbete och börja med gateway. 
+- Vi var färdig med:
+    + Mail-funktion funkar på frontend. 
+    + Hela flödet funkar: login- product- order- skickar mejl
+    + Logintest
+    + Deleteknappen på adminPage.
+    + Order använder Cookies.
+    + Skapade en repo till Gateway.
+- Retrospektiv:
+    + Vi uppdaterar allting i tid på Trello men också behöver uppdatera uppgifterna på Google Sheets så att lärare kan se allting.
+    + Mer aktiva att godkänna Pull Request så att alla kan få uppdaterings i tid. 
+                  
