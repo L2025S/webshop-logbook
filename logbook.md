@@ -45,14 +45,17 @@
  
 ### Eventuella problem och hur jag löste dem
 - Problem: Knappen "Place Order" fungerar inte. Det står " You are not logged in." 
-- Jag har informerat den personen som är ansvarig för Order Service att ändra metoden att hämta users, eftersom vi använder Cookies nu.
+- Lösning: 
+    + Order behöver använda Cookies för att "Place Order" funkar. 
+    + Jag har informerat den personen som är ansvarig för Order Service att ändra metoden att hämta users, eftersom vi använder Cookies nu.
 
 ### Samarbete  och agilt arbete
 - Mål: Vi jobbar på både frontend och backend, skapar en adminfunktionalitet och förbättra UX (User Experience) för kunden.
 - Vad vi har uppnått:
-- Vi har förbättrat UX  med kundvagn, product search field, category filter, 
-- E-mail funkar lokalt och 404-template och an admin-sida.
-- Retrospektiv: Vi tyckte att vi hade gjort väldigt bra jobb.
+    + Vi har förbättrat UX  med kundvagn, product search field, category filter, 
+    + E-mail funkar lokalt och 404-template och an admin-sida.
+- Retrospektiv: 
+    + Vi tyckte att vi hade gjort väldigt bra jobb.
 
 
 
@@ -79,4 +82,36 @@
 - Retrospektiv:
     + Vi uppdaterar allting i tid på Trello men också behöver uppdatera uppgifterna på Google Sheets så att lärare kan se allting.
     + Mer aktiva att godkänna Pull Request så att alla kan få uppdaterings i tid. 
+
+
+# Sprint 5 - vecka 43
+### Vad jag arbetade med
+- Färdigt: 
+    + `32. Gateway-applikcation i backend`
+    + `33. Driftsättning av gateway`
+    + `Fix: add stock to ProductForm`
+
+- Inte färdigt: 
+    + 
+
+### Eventuella problem och hur jag löste dem
+- Problem: AdminPage syns inte när man loggar in som ADMIN.
+- Lösning: Tillfälligt: 1. VITE_ENABLE_MSW=false; Permanent: Ändra "admin" till "ADMIN"
+
+### Samarbete  och agilt arbete
+- Mål: Gör klart gateway och testning. 
+- Vi var färdig med:
+  + `32. Gateway-applikation i backend.`
+  + `33. Driftsättning av gateway`
+  + `34. Cookie för jwttoken i gateway`
+  + `35. Cookie för jwttoken i frontend`
+  + `36. Återställ inloggad användare om användare laddar om sidan.`
+  + `38. Undersök integrationstestning.`
+  + `39.Konfigurera MSW`
+  + `40. Testa produkthämtning`
+  + `AdminPage: kappen-Edit Stock`
+-Inte färdigt med:
+  + `41. Test återställning av användare`
+- Retrospektiv:
+  + Bra kommunikation med Pull Request.
                   
