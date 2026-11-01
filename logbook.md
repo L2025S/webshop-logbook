@@ -64,34 +64,34 @@
 
 # Sprint 4 - vecka 42
 ### Vad jag arbetade med 
-- Färdigt: `24. Uppdatera så att formuläret som skapar nya produkter inkluderar category och imageUrl`
-- Inte färdigt: Lägg till stock i ProductForm
+- **Färdigt**: `24. Uppdatera så att formuläret som skapar nya produkter inkluderar category och imageUrl`
+- **Inte färdigt**: Lägg till stock i ProductForm
 
 ### Eventuella problem och hur jag löste dem
 - Lite om ev problem och lösningar på dem
 
 ### Samarbete  och agilt arbete
-- Mål: Vi ska göra klart resten av arbete och börja med gateway. 
-- Vi var färdig med:
+- **Mål**: Vi ska göra klart resten av arbete och börja med gateway. 
+- **Vi var färdig med**:
     + Mail-funktion funkar på frontend. 
     + Hela flödet funkar: login- product- order- skickar mejl
     + Logintest
     + Deleteknappen på adminPage.
     + Order använder Cookies.
     + Skapade en repo till Gateway.
-- Retrospektiv:
+- **Retrospektiv**:
     + Vi uppdaterar allting i tid på Trello men också behöver uppdatera uppgifterna på Google Sheets så att lärare kan se allting.
     + Mer aktiva att godkänna Pull Request så att alla kan få uppdaterings i tid. 
 
 
 # Sprint 5 - vecka 43
 ### Vad jag arbetade med
-- Färdigt: 
+- **Färdigt**: 
     + `32. Gateway-applikcation i backend`
     + `33. Driftsättning av gateway`
     + `Fix: add stock to ProductForm`
 
-- Inte färdigt: 
+- **Inte färdigt**: 
     + 
 
 ### Eventuella problem och hur jag löste dem
@@ -99,8 +99,8 @@
 - Lösning: Tillfälligt: 1. VITE_ENABLE_MSW=false; Permanent: Ändra "admin" till "ADMIN"
 
 ### Samarbete  och agilt arbete
-- Mål: Gör klart gateway och testning. 
-- Vi var färdig med:
+- **Mål**: Gör klart gateway och testning. 
+- **Vi var färdig med**:
   + `32. Gateway-applikation i backend.`
   + `33. Driftsättning av gateway`
   + `34. Cookie för jwttoken i gateway`
@@ -110,7 +110,7 @@
   + `39.Konfigurera MSW`
   + `40. Testa produkthämtning`
   + `AdminPage: kappen-Edit Stock`
--Inte färdigt med:
+-**Inte färdigt med**:
   + `41. Test återställning av användare`
 - Retrospektiv:
   + Bra kommunikation med Pull Request.
@@ -120,28 +120,31 @@
 
 # Sprint 6 - vecka 44
 ### Vad jag arbetade med
-- Färdigt:
+- **Färdigt**:
   + `- README- gateway `
   + `- README- product`
   + `- Javadoc - product `
   + `- Undersök E2E-test `
   
 
-- Inte färdigt:
+- **Inte färdigt**:
   +
 
 ### Eventuella problem och hur jag löste dem
-- 
+- **Problem**: En gruppmedlem fastnade på uppgift 41. Det fungerade bra lokalt och npm run build fungerade också, </br> men koden blev inte godkänd av CI på GitHub när han gjorde en pull request. </br> Han hade lagt ungefär fyra timmar på att försöka lösa problemet.
+</br>
+</br>
+- **Lösning**: Koden var relativt kort, men trots det hade han försökt lösa problemet i fyra timmar utan framgång.</br> Eftersom felsökningen tog lång tid bestämde jag mig för att själv skriva en lösning från början </br> och sedan skapa en pull request på GitHub. </br>CI godkände min lösning utan problem. Därefter visade jag honom min kod och bad honom själv undersöka och jämföra skillnaderna mellan </br> våra lösningar för att hitta orsaken till problemet.
 
 ### Samarbete  och agilt arbete
-- Mål: .
-- Vi var färdig med:
+- **Mål**: .
+- **Vi var färdig med**:
   + `- 41. Testa återställning av användare `
   + `- 42. Undersök en-to-end-testning`
   + `- 44. Informera om nödvändiga cookies`
   + `- 46. Documentera backend med Javadoc`
 
--Inte färdigt med:
+-**Inte färdigt med**:
   + `- 43. Skapa README-filer `
   + `- 45. Finputsning av frontend design `
 
