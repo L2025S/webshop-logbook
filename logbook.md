@@ -1,6 +1,6 @@
 
 
-## Sprint 1 - vecka 39
+# Sprint 1 - vecka 39
 ### Vad jag arbetade med
 - `1. Skapa frontendrepo`
 - `2. Lägg till CI för frontend`
@@ -16,7 +16,7 @@
 
 
 
-## Sprint 2 - vecka 40
+# Sprint 2 - vecka 40
 ### Vad jag arbetade med
 - `9. Tillåt frontend mot product-service api `
 - `10. Visa produkter från backend` 
@@ -36,7 +36,7 @@
 
 
 
-## Sprint 3- Vecka 41
+#  Sprint 3- Vecka 41
 ### Vad jag arbetade med
 - `16. Utöka kundvagnen med quality och prisberäkning`
 - `21. Kundvagn del-3`
@@ -62,7 +62,7 @@
 
 
 
-## Sprint 4 - vecka 42
+# Sprint 4 - vecka 42
 ### Vad jag arbetade med 
 - Färdigt: `24. Uppdatera så att formuläret som skapar nya produkter inkluderar category och imageUrl`
 - Inte färdigt: Lägg till stock i ProductForm
