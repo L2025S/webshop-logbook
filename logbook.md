@@ -114,4 +114,35 @@
   + `41. Test återställning av användare`
 - Retrospektiv:
   + Bra kommunikation med Pull Request.
-                  
+
+
+
+
+# Sprint 6 - vecka 44
+### Vad jag arbetade med
+- Färdigt:
+  + `- README- gateway `
+  + `- README- product`
+  + `- Javadoc - product `
+  + `- Undersök E2E-test `
+  
+
+- Inte färdigt:
+  +
+
+### Eventuella problem och hur jag löste dem
+- 
+
+### Samarbete  och agilt arbete
+- Mål: .
+- Vi var färdig med:
+  + `- 41. Testa återställning av användare `
+  + `- 42. Undersök en-to-end-testning`
+  + `- 44. Informera om nödvändiga cookies`
+  + `- 46. Documentera backend med Javadoc`
+
+-Inte färdigt med:
+  + `- 43. Skapa README-filer `
+  + `- 45. Finputsning av frontend design `
+
+            
