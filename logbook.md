@@ -131,10 +131,10 @@
   +
 
 ### Eventuella problem och hur jag löste dem
-- **Problem**: En gruppmedlem fastnade på uppgift 41. Det fungerade bra lokalt och npm run build fungerade också, </br> men koden blev inte godkänd av CI på GitHub när han gjorde en pull request. </br> Han hade lagt ungefär fyra timmar på att försöka lösa problemet.
+- **Problem**: En gruppmedlem fastnade på uppgift 41. Det fungerade bra lokalt och npm run build fungerade också,  men koden blev inte godkänd av CI på GitHub när han gjorde en pull request. Han hade lagt ungefär fyra timmar på att försöka lösa problemet.
 </br>
 </br>
-- **Lösning**: Koden var relativt kort, men trots det hade han försökt lösa problemet i fyra timmar utan framgång.</br> Eftersom felsökningen tog lång tid bestämde jag mig för att själv skriva en lösning från början </br> och sedan skapa en pull request på GitHub. </br>CI godkände min lösning utan problem. Därefter visade jag honom min kod och bad honom själv undersöka och jämföra skillnaderna mellan </br> våra lösningar för att hitta orsaken till problemet.
+- Lösning: Koden var relativt kort, men trots det hade han försökt lösa problemet i fyra timmar utan framgång.Eftersom felsökningen tog lång tid bestämde jag mig för att själv skriva en lösning från början och sedan skapa en pull request på GitHub. CI godkände min lösning utan problem. Därefter visade jag honom min kod och bad honom själv undersöka och jämföra skillnaderna mellan våra lösningar för att hitta orsaken till problemet.
 
 ### Samarbete  och agilt arbete
 - **Mål**: .
